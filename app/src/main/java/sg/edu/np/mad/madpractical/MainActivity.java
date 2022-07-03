@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        User user1 = new User("Owen","FI Student",1,false);
-        //Log.d(TAG, "ABCDE "+user1.name);
+        User user1 = new User("Thaanya","Financial informatics student",1,false);
+
         TextView nameTV = findViewById(R.id.textView);
         TextView descTV = findViewById(R.id.textView2);
         Button followButton = findViewById(R.id.followBtn);

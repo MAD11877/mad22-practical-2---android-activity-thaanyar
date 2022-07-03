@@ -9,7 +9,7 @@ public class User {
     public User(String n, String d, int i, Boolean f){
         name = n;
         description = d;
-        id = i;
+        id = id;
         followed = f;
     }
 }
